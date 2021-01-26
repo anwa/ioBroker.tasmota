@@ -1,6 +1,6 @@
 {
     "common": {
-        "name":                     "sonoff",
+        "name": "tasmota",
         "version": "2.3.3",
         "news": {
             "2.3.3": {
@@ -138,18 +138,18 @@
                 "pl": "Dodaj Light/Noise/AirQuality"
             }
         },
-        "title": "Sonoff",
+        "title": "Tasmota",
         "desc":                     {
-            "en": "This adapter allows to connect sonoff components via MQTT",
-            "de": "Dieser Adapter ermöglicht den Anschluss von Sonoff-Komponenten über MQTT",
-            "ru": "Этот адаптер позволяет подключать компоненты Sonoff через MQTT",
-            "pt": "Este adaptador permite conectar os componentes do sonoff via MQTT",
-            "nl": "Met deze adapter kunnen sonoff-componenten via MQTT worden aangesloten",
-            "fr": "Cet adaptateur permet de connecter des composants sonoff via MQTT",
-            "it": "Questo adattatore consente di collegare i componenti Sonoff via MQTT",
-            "es": "Este adaptador permite conectar componentes de sonof a través de MQTT",
-            "pl": "Ten adapter umożliwia łączenie komponentów sonoff za pośrednictwem MQTT",
-            "zh-cn": "该适配器允许通过MQTT连接Sonoff组件"
+            "en": "This adapter allows to connect tasmota components via MQTT",
+            "de": "Dieser Adapter ermöglicht den Anschluss von Tasmota-Komponenten über MQTT",
+            "ru": "Этот адаптер позволяет подключать компоненты Tasmota через MQTT",
+            "pt": "Este adaptador permite conectar os componentes do tasmota via MQTT",
+            "nl": "Met deze adapter kunnen tasmota-componenten via MQTT worden aangesloten",
+            "fr": "Cet adaptateur permet de connecter des composants tasmota via MQTT",
+            "it": "Questo adattatore consente di collegare i componenti Tasmota via MQTT",
+            "es": "Este adaptador permite conectar componentes de tasmota a través de MQTT",
+            "pl": "Ten adapter umożliwia łączenie komponentów tasmota za pośrednictwem MQTT",
+            "zh-cn": "该适配器允许通过MQTT连接Tasmota组件"
         },
         "authors": [
             "bluefox <dogafox@gmail.com>"
@@ -159,12 +159,12 @@
         "mode":                     "daemon",
         "compact":                  true,
         "enabled":                  true,
-        "readme":                   "https://github.com/ioBroker/ioBroker.sonoff/blob/master/README.md",
+        "readme":                   "https://github.com/anwa/ioBroker.tasmota/blob/master/README.md",
         "loglevel":                 "info",
-        "icon":                     "sonoff.png",
+        "icon":                     "tasmota.png",
         "materialize":              true,
         "keywords":                 ["ITEAD", "MQTT", "Sonoff", "Tasmota"],
-        "extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.sonoff/master/admin/sonoff.png",
+        "extIcon":                  "https://raw.githubusercontent.com/anwa/ioBroker.tasmota/master/admin/tasmota.png",
 		"type":                     "lighting"
     },
     "native": {
